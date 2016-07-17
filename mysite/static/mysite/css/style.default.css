@@ -22,12 +22,7 @@ body {
   height: 100%;
   margin: 0 auto;
 }
-section {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
+animated
 .section-gray {
   background: #eeeeee;
 }
@@ -84,16 +79,7 @@ h4.heading:after {
   transition: all 0.2s ease-out;
   z-index: 3;
 }
-@media (max-width: 1000px) {
-  .content {
-    position: relative;
-    padding: 80px 0;
-    top: 0;
-    -webkit-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    transform: translate(0, 0);
-  }
-}
+container
 .services .box {
   margin-bottom: 20px;
   text-align: center;
@@ -176,7 +162,7 @@ p.social a.email {
 }
 #page1 {
   text-align: center;
-  background: url('../img/uvod.jpg') center center no-repeat;
+  background: url('../img/uvod1.jpg') center center no-repeat;
   background-size: cover;
   color: #fff;
 }

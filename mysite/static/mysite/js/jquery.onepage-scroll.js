@@ -22,7 +22,7 @@
         animationTime: 1000,
         pagination: true,
         updateURL: false,
-        keyboard: true,
+        keyboard: false,
         beforeMove: null,
         afterMove: null,
         loop: true,
