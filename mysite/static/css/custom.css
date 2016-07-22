@@ -172,3 +172,8 @@ i.scroll-down {
     -moz-animation: ani-mouse 2.5s linear infinite;
     animation: ani-mouse 2.5s linear infinite;
 }
+
+#footer{
+    position: absolute;
+    bottom:0;
+}
