@@ -8,20 +8,6 @@ body {
   height: 100%;
 }
 
-.wrapper {
-  height: 100% !important;
-  height: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.main {
-  float: left;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-}
-
 .italic {
   font-style: italic;
 }
@@ -31,8 +17,14 @@ body {
   background: url('../img/uvod1.jpg');
   height: 100%;
   background-size: cover;
+  position: relative;
+  width: 100%;
   color: #fff;
+  background-color: #111;
+  padding: 0;
   background-position: center center;
+  overflow: hidden;
+  background-attachment: fixed;
 }
 
 #intro .icon {
