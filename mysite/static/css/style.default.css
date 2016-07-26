@@ -7,33 +7,61 @@ html {
 body {
   height: 100%;
 }
+
+.wrapper {
+  height: 100% !important;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.main {
+  float: left;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
 .italic {
   font-style: italic;
 }
-.intro {
+
+#intro {
+  text-align: center;
   background: url('../img/uvod1.jpg');
-  position: relative;
-  width: 100%;
   height: 100%;
-  color: #fff;
-  background-color: #111;
-  min-height: 600px;
-  padding: 0;
   background-size: cover;
+  color: #fff;
   background-position: center center;
-  overflow: hidden;
-  background-attachment: fixed;
 }
 
-.intro h1,
-.intro h2,
-.intro h3,
-.intro p {
+#intro .icon {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: solid 2px #fff;
+  border-radius: 20px;
+  z-index: 3;
+}
+
+#intro h1,
+#intro h2,
+#intro h3,
+#intro p {
   color: #fff;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
+
+#intro p {
+  font-size: 20px;
+}
+
 @media (min-width: 992px) {
-  .intro p {
+  #intro p {
     font-size: 22px;
   }
 }
