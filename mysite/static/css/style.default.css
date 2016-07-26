@@ -145,19 +145,19 @@ p.social a i {
   line-height: 38px;
 }
 p.social a.facebook {
-  background-color: #ccc;
+  background-color: #4460ae;
 }
 p.social a.gplus {
-  background-color: #333;
+  background-color: #c21f25;
 }
 p.social a.twitter {
-  background-color: #aaa;
+  background-color: #00aced;
 }
 p.social a.instagram {
-  background-color: #999;
+  background-color: #cd4378;
 }
 p.social a.email {
-  background-color: #666;
+  background-color: #4a7f45;
 }
 .copyright {
   margin-top: 40px;

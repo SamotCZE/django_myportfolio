@@ -3,7 +3,8 @@ $(document).ready(function () {
     drawMap();
     animateInit();
 });
-var wasBoxesAnimation = false;
+var wasBoxesAnimated = false;
+var wasSocialAnimated = false;
 function fullPageInit() {
     $('#fullpage').fullpage({
 
@@ -41,14 +42,44 @@ function fullPageInit() {
                 $('#portfolio .container').css("visibility", "visible");
                 $('#portfolio h2').addClass('animated').addClass('fadeInDown');
                 $('#portfolio p').first().addClass('animated').addClass('fadeInDown');
-                if (wasBoxesAnimation == false) {
+                if (wasBoxesAnimated == false) {
                     var boxes = $('#portfolio .box').addClass('animated').addClass('zoomIn');
                     setTimeout(function () {
                         boxes.removeClass('animated zoomIn');
-                        wasBoxesAnimation = true;
+                        wasBoxesAnimated = true;
                     }, 1000);
                 }
-
+            }
+            if (index == 6) {
+                if (wasSocialAnimated == false) {
+                    var social = $('#contact .social a');
+                    social.each(function (index, element) {
+                        var timeout = 0;
+                        switch (index) {
+                            case 0:
+                                timeout = 0;
+                                break;
+                            case 1:
+                                timeout = 200;
+                                break;
+                            case 2:
+                                timeout = 400;
+                                break;
+                            case 3:
+                                timeout = 600;
+                                break;
+                            case 4:
+                                timeout = 800;
+                                break;
+                        }
+                        setTimeout(function () {
+                            $(element).css({
+                                "visibility" : "visible"
+                            });
+                            $(element).addClass('animated fadeInUp');
+                        }, timeout);
+                    });
+                }
             }
         },
     });
@@ -66,8 +97,9 @@ function animateInit() {
 
     $('#portfolio .box').mouseover(function () {
         $(this).addClass('animated pulse');
-    })
+    });
     $('#portfolio .box').mouseout(function () {
         $(this).removeClass('animated pulse');
-    })
+    });
+
 }
