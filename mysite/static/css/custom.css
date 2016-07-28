@@ -180,18 +180,106 @@ div .sketch {
 	line-height: 1;
 }
 
-@media (min-width: 1200px) {
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
 	div .sketch {
-		font-size: 140px;
+		font-size: 20px;
 	}
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-	div .sketch {
-		font-size: 100px;
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+  div .sketch {
+		font-size: 20px;
 	}
 }
 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+  div .sketch {
+		font-size: 20px;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+  div .sketch {
+		font-size: 60px;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+  div .sketch {
+		font-size: 70px;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+  div .sketch {
+		font-size: 70px;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+  div .sketch {
+	  font-size: 120px;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+  div .sketch {
+	  font-size: 140px;
+  }
+}
+
+/* iPhone 4 - 5s ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+	div .sketch {
+		font-size: 25px;
+	}
+	#intro .intro-text {
+		font-size: 15px;
+	}
+	#intro h1 {
+		font-size: 80%;
+	}
+
+}
+
+/* iPhone 6 ----------- */
+@media
+only screen and (max-device-width: 667px),
+only screen and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media
+only screen and (min-device-width : 414px),
+only screen and (-webkit-device-pixel-ratio: 3) {
+  /*** You've spent way too much on a phone ***/
+}
 
 @font-face {
 	font-family: "KG Broken Vessels Sketch";
