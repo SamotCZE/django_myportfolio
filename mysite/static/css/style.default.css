@@ -14,7 +14,7 @@ body {
 
 #intro {
   text-align: center;
-  background: url('../img/uvod1.jpg');
+  background: url('../img/background.jpg');
   height: 100%;
   background-size: cover;
   position: relative;
@@ -43,17 +43,17 @@ body {
 #intro h1,
 #intro h2,
 #intro h3,
-#intro p {
+#intro .intro-text {
   color: #fff;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-#intro p {
+#intro .intro-text {
   font-size: 20px;
 }
 
 @media (min-width: 992px) {
-  #intro p {
+  #intro .intro-text {
     font-size: 22px;
   }
 }

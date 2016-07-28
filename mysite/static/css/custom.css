@@ -59,10 +59,6 @@ i.scroll-down {
     transition: all 0.2s;
 }
 
-.intro-text {
-    text-align: center;
-}
-
 @-webkit-keyframes ani-mouse {
 	0% {
 	opacity: 1;
@@ -176,4 +172,31 @@ i.scroll-down {
 #footer{
     position: absolute;
     bottom:0;
+}
+
+div .sketch {
+	font-family: "KG Broken Vessels Sketch";
+	color: #3e3e3e;
+	line-height: 1;
+}
+
+@media (min-width: 1200px) {
+	div .sketch {
+		font-size: 140px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	div .sketch {
+		font-size: 100px;
+	}
+}
+
+
+@font-face {
+	font-family: "KG Broken Vessels Sketch";
+	src: url("../fonts/KGBrokenVesselsSketch.eot");
+	src:
+			url("../fonts/KGBrokenVesselsSketch.ttf")
+			format("truetype");
 }
