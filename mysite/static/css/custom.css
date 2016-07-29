@@ -268,7 +268,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 		font-size: 15px;
 	}
 	#intro h1 {
-		font-size: 90%;
+		font-size: 18px;
 	}
 
 }
