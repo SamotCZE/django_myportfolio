@@ -227,7 +227,7 @@ and (min-width : 768px)
 and (max-width : 1024px)
 and (orientation : landscape) {
   div .sketch {
-		font-size: 70px;
+		font-size: 65px;
 	}
 }
 
@@ -237,7 +237,7 @@ and (min-width : 768px)
 and (max-width : 1024px)
 and (orientation : portrait) {
   div .sketch {
-		font-size: 70px;
+		font-size: 65px;
 	}
 }
 
@@ -268,7 +268,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 		font-size: 15px;
 	}
 	#intro h1 {
-		font-size: 80%;
+		font-size: 90%;
 	}
 
 }
