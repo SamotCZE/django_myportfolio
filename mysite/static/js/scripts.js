@@ -14,7 +14,8 @@ function fullPageInit() {
         navigationPosition: 'right',
         navigationTooltips: ['Úvod', 'O mě', 'Služby', 'Portfolio', 'Text', 'Kontakt', 'Odkud jsem'],
         css3: true,
-        responsiveWidth: 1100,
+        responsiveWidth: 1030,
+        responsiveHeight: 770,
 
         onLeave: function (index, nextIndex, direction) {
             if (index == 1) {
