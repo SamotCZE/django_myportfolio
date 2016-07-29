@@ -245,13 +245,13 @@ and (orientation : portrait) {
 @media only screen
 and (min-width : 1224px) {
 	div .sketch {
-	  font-size: 60px;
+	  font-size: 65px;
 	}
 	#intro .intro-text {
 		font-size: 20px;
 	}
 	#intro h1 {
-		font-size: 23px;
+		font-size: 28px;
 	}
 }
 
