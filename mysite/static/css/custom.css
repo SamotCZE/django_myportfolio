@@ -245,7 +245,7 @@ and (orientation : portrait) {
 @media only screen
 and (min-width : 1224px) {
   div .sketch {
-	  font-size: 80px;
+	  font-size: 70px;
   }
 }
 
