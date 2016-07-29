@@ -244,9 +244,15 @@ and (orientation : portrait) {
 /* Desktops and laptops ----------- */
 @media only screen
 and (min-width : 1224px) {
-  div .sketch {
+	div .sketch {
 	  font-size: 60px;
-  }
+	}
+	#intro .intro-text {
+		font-size: 20px;
+	}
+	#intro h1 {
+		font-size: 23px;
+	}
 }
 
 /* Large screens ----------- */
