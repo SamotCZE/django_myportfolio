@@ -1,3 +1,9 @@
+.page1 {
+	text-align: center;
+	background-image: url("../img/background_big.jpg");
+	background-size: cover;
+}
+
 #menu li a,
 a {
     text-decoration: none

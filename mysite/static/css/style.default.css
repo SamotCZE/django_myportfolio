@@ -1,6 +1,4 @@
-/* ========================================= */
-/* Black and White Template By Bootstrapious.com      */
-/* ========================================= */
+
 html {
   height: 100%;
 }
@@ -13,18 +11,9 @@ body {
 }
 
 #intro {
-  text-align: center;
-  background: url('../img/background_big.jpg');
-  height: 100%;
-  background-size: cover;
-  position: relative;
-  width: 100%;
-  color: #fff;
-  background-color: #111;
+  max-width:100%;
+  height:100%;
   padding: 0;
-  background-position: center center;
-  overflow: hidden;
-  background-attachment: fixed;
 }
 
 #intro .icon {
