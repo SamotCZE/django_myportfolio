@@ -88,6 +88,10 @@ function fullPageInit() {
     });
 }
 
+$(function () {
+    $('#menu').slicknav();
+})
+
 function drawMap() {
     var map = new GMaps({
         el: '#map',

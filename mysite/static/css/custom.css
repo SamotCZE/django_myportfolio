@@ -186,6 +186,9 @@ div .sketch {
 	line-height: 1;
 }
 
+.slicknav_menu {
+	display:none;
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
@@ -194,21 +197,42 @@ and (max-device-width : 480px) {
 	div .sketch {
 		font-size: 20px;
 	}
+	.js #menu {
+		display:none;
+	}
+
+	.js .slicknav_menu {
+		display:block;
+	}
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen
 and (min-width : 321px) {
-  div .sketch {
+	div .sketch {
 		font-size: 20px;
+	}
+	.js #menu {
+		display:none;
+	}
+
+	.js .slicknav_menu {
+		display:block;
 	}
 }
 
 /* Smartphones (portrait) ----------- */
 @media only screen
 and (max-width : 320px) {
-  div .sketch {
+  	div .sketch {
 		font-size: 20px;
+	}
+	.js #menu {
+		display:none;
+	}
+
+	.js .slicknav_menu {
+		display:block;
 	}
 }
 
@@ -216,7 +240,7 @@ and (max-width : 320px) {
 @media only screen
 and (min-width : 768px)
 and (max-width : 1024px) {
-  div .sketch {
+  	div .sketch {
 		font-size: 65px;
 	}
 }
@@ -226,7 +250,7 @@ and (max-width : 1024px) {
 and (min-width : 768px)
 and (max-width : 1024px)
 and (orientation : landscape) {
-  div .sketch {
+  	div .sketch {
 		font-size: 65px;
 	}
 }
@@ -245,7 +269,7 @@ and (orientation : portrait) {
 @media only screen
 and (min-width : 1224px) {
 	div .sketch {
-	  font-size: 65px;
+	  font-size: 60px;
 	}
 	#intro .intro-text {
 		font-size: 20px;
@@ -276,6 +300,13 @@ only screen and (min-device-pixel-ratio : 1.5) {
 	#intro h1 {
 		font-size: 18px;
 	}
+	.js #menu {
+		display:none;
+	}
+
+	.js .slicknav_menu {
+		display:block;
+	}
 
 }
 
@@ -283,14 +314,26 @@ only screen and (min-device-pixel-ratio : 1.5) {
 @media
 only screen and (max-device-width: 667px),
 only screen and (-webkit-device-pixel-ratio: 2) {
-  /* Styles */
+  	.js #menu {
+		display:none;
+	}
+
+	.js .slicknav_menu {
+		display:block;
+	}
 }
 
 /* iPhone 6+ ----------- */
 @media
 only screen and (min-device-width : 414px),
 only screen and (-webkit-device-pixel-ratio: 3) {
-  /*** You've spent way too much on a phone ***/
+	.js #menu {
+		display:none;
+	}
+
+	.js .slicknav_menu {
+		display:block;
+	}
 }
 
 @font-face {
